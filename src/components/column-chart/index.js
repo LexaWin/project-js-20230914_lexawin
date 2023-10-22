@@ -26,7 +26,7 @@ export default class ColumnChart {
     this.to = to.toISOString();
     this.element = this.createElement();
     this.subElements = this.getSubElements();
-    // this.update(from, to);
+    this.update(from, to);
   }
 
   createBarTemplate(height, percent) {
